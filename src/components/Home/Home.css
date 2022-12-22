@@ -22,10 +22,10 @@
 .home-container .wave {
     position: absolute;
     left: 0;
-    bottom: -15em;
+    bottom: -10em;
     width: 100%;
 
-    filter: opacity(70%);
+    filter: opacity(60%);
 }
 
 @media (max-width: 1260px) {
@@ -51,7 +51,7 @@
     }
 
     .home-container .wave {
-        bottom: -8em;
+        bottom: -5em;
     }
 }
 
@@ -59,9 +59,6 @@
 @media (max-width: 640px) {
     .title h1{
         font-size: 2rem !important;
-    }
-    .home-container .wave {
-        bottom: -2em;
     }
 }
 
